@@ -14,7 +14,7 @@ p{
     color: #555;
 }
 .header{
-    background: url('images/background.jpg') no-repeat center center/cover;
+    background: url('images/background.png') no-repeat center center/cover;
 }
 
 .container{
@@ -152,16 +152,12 @@ h4{
 
 
 /*-----------offer-------------*/
-.offer{
-    background: url('images/background.jpg') no-repeat center center/cover;
-    margin-top: 80px;
-    padding: 30px 0;
-}
-.col-2 .offer-img{
-    padding: 50px;
-}
-small{
-    color: #555;
+.offer {
+    background: url('images/4.png') no-repeat center center/cover;
+    height: 400px; /* 根據需求調整高度 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*--------------------testimonial---------------*/
