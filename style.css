@@ -85,25 +85,53 @@ nav ul li{
 }
 
 /*-----------------------------*/
-.categories{
+.categories {
     margin: 70px 0;
 }
 
-.small-container{
+.small-container {
     max-width: 1080px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
 }
 
-.col-3{
+.col-3 {
     flex-basis: 30%;
     min-width: 250px;
     margin-bottom: 30px;
+    position: relative; /* 确保图片放大不会影响布局 */
 }
-.col-3 img{
-    width: 100%;
+
+.col-3 img {
+    width: 100%; /* 图片原始大小 */
+    cursor: pointer; /* 鼠标样式为点击状态 */
+    transition: transform 0.3s ease, z-index 0.3s ease; /* 平滑过渡效果 */
+    animation: float 3s ease-in-out infinite; /* 默认浮动动画 */
 }
+
+/* 定义浮动效果动画 */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* 上浮10px */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* 点击放大效果 */
+.col-3 img.zoomed {
+    animation: none; /* 取消浮动动画 */
+    transform: scale(2) translateY(0); /* 放大图片，移除浮动 */
+    z-index: 10; /* 提升层级 */
+    position: relative; /* 保证图片在放大后正常显示 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* 添加阴影效果 */
+}
+
 /*-------featured product--------------*/
 
 .title{
