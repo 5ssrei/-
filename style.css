@@ -180,10 +180,10 @@ h4{
     transform: translateY(-5px);
 }
 
-
 /*-----------offer-------------*/
-.offer{
-    background: radial-gradient(#fff,#ffd6d6);
+.offer {
+    background: url('images/4.png') no-repeat center center;
+    background-size: cover; /* 確保圖片覆蓋整個區域 */
     margin-top: 80px;
     padding: 30px 0;
 }
@@ -193,6 +193,7 @@ h4{
 small{
     color: #555;
 }
+
 
 /*--------------------testimonial---------------*/
 
@@ -737,4 +738,3 @@ body {
 .next-btn:hover {
     background-color: #45a049;
 }
-
