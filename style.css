@@ -6,6 +6,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
 a{
     text-decoration: none;
     color: #555;
@@ -51,6 +52,7 @@ nav ul li{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+
 /*---------*/
     
 }
@@ -83,8 +85,7 @@ nav ul li{
 .btn:hover{
     background: #563434;
 }
-
-/*-----------------------------*/
+/*-------海報--------------*/
 .categories {
     margin: 70px 0;
 }
@@ -131,6 +132,7 @@ nav ul li{
     position: relative; /* 保证图片在放大后正常显示 */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* 添加阴影效果 */
 }
+
 
 /*-------featured product--------------*/
 
@@ -180,12 +182,16 @@ h4{
 
 
 /*-----------offer-------------*/
-.offer {
-    background: url('images/4.png') no-repeat center center/cover;
-    height: 400px; /* 根據需求調整高度 */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-2 .offer-img{
+    padding: 50px;
+}
+small{
+    color: #555;
 }
 
 /*--------------------testimonial---------------*/
@@ -226,8 +232,8 @@ h4{
     transform: translateY(-10px);
 }
 
-/*--------------- brands ------------*/
 
+/*--------------- brands ------------*/
 .brands{
     margin: 100px auto;
 }
@@ -243,6 +249,7 @@ h4{
     filter: grayscale(0);
 }
 /*---------footer-------*/
+
 
 .footer{
     background: #000;
@@ -299,41 +306,41 @@ h4{
     
 }
 
-/*-------media-query-for-max-width-800---------*/
 
+/*-------media-query-for-max-width-800---------*/
 
 @media only screen and (max-width: 800px) {
 
     
-nav ul{
-    position: absolute;
-    top: 70px;
-    left: 0;
-    background: #333;
-    width: 100%;
-    overflow: hidden;
-    transition: 1s;
-    max-height: 0;
-    transition:max-height 0.5s;
-    }
-    
-nav ul li{
-    display: block;
-    margin-right: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    }
-nav ul li a{
-        color: #fff;
-    }
-    
-.menu-icon{
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: 1s;
+        max-height: 0;
+        transition:max-height 0.5s;
+        }
+        
+    nav ul li{
         display: block;
-        cursor: pointer;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+    nav ul li a{
+            color: #fff;
+        }
+        
+    .menu-icon{
+            display: block;
+            cursor: pointer;
+        }
+        
+    
     }
-
-
-}
 /*---------- 600 media query -------*/
 @media only screen and (max-width: 600px){
     
@@ -346,6 +353,7 @@ nav ul li a{
         flex-basis: 100%;
     }
 }
+
 
 /*----------All Product page------------*/
 
@@ -362,16 +370,45 @@ select{
 select:focus{
     outline: none;
 }
+.price {
+    font-weight: bold; /* 設置粗體 */
+    font-size: 30px; /* 設置字體大小 */
+    margin: 20px 0;
+}
+.title{
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
 
 .page-btn{
     margin: 0 auto 80px;
+}
+.option-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.mainfoodoption-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width:150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
 }
 
 .page-btn span{
     display: inline-block;
     border: 1px solid #ff523b;
     margin-left: 10px;
-    width: 40px;
+    width: 200px;
     height: 40px;
     text-align: center;
     line-height: 40px;
@@ -380,11 +417,45 @@ select:focus{
 .page-btn span:hover{
     background: #ff523b;
     color: #fff;
+}.page-btn span.active {
+    background-color: #ff523b; /* 點擊後的背景色 */
+    color: white;             /* 點擊後的文字顏色 */
+    border-color: #ff523b;    /* 點擊後的邊框顏色 */
+}
+.option-btnspan:hover{
+    background: #ff523b;
+    color: #fff;
+}.option-btn span.active {
+    background-color: #ff523b; /* 點擊後的背景色 */
+    color: white;             /* 點擊後的文字顏色 */
+    border-color: #ff523b;    /* 點擊後的邊框顏色 */
+}
+.mainfoodoption-btnspan:hover{
+    background: #ff523b;
+    color: #fff;
+}.mainfoodoption-btn span.active {
+    background-color: #ff523b; /* 點擊後的背景色 */
+    color: white;             /* 點擊後的文字顏色 */
+    border-color: #ff523b;    /* 點擊後的邊框顏色 */
 }
 
 
-
 /*---------product details-----------*/
+.product-details {
+    text-align: center; /* 內容居中 */
+    margin-top: 20px;   /* 與其他內容保持距離 */
+}
+
+.product-details h3 {
+    margin-bottom: 10px; /* 調整與描述之間的距離 */
+    font-weight: bold;   /* 確保標題突出 */
+}
+
+.product-details p {
+    font-size: 16px; /* 調整描述文字大小 */
+    margin: 0;       /* 移除多餘的上下空白 */
+}
+
 .single-product{
     margin-top: 80px;
 }
@@ -431,8 +502,6 @@ input:focus{
     flex-basis: 24%;
     cursor: pointer;
 }
-
-
 /*-------600 media query---------*/
 
 
@@ -518,11 +587,12 @@ th:last-child{
     }
 }
 
+
 /*-------account page--------*/
 
 .accout-page{
     padding: 50px 0;
-    background: url('images/background.jpg') no-repeat center center/cover;
+    background: radial-gradient(#fff,#ffd6d6);
 }
 
 .form-container{
@@ -596,3 +666,75 @@ form a{
 #RegForm{
     left: 0;
 }
+/* products css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #4caf50;
+    width: 0;
+    transition: width 0.3s;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+.step {
+    text-align: center;
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 0 5px;
+    position: relative;
+}
+
+.step.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+.content {
+    margin: 20px;
+    text-align: center;
+}
+
+.section {
+    display: none;
+}
+
+.section:not(.hidden) {
+    display: block;
+}
+
+.next-btn {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.next-btn:hover {
+    background-color: #45a049;
+}
+
