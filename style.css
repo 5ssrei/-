@@ -737,4 +737,19 @@ body {
 .next-btn:hover {
     background-color: #45a049;
 }
+/*----------game--------*/
+#gameButton {
+    background-color: #B4A597; /* 摩蘭迪配色 */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+#gameButton:hover {
+    background-color: #C5B8A5;
+}
 
