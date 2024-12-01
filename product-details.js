@@ -11,16 +11,19 @@ function setProductDetails(productId) {
         })
         .then(products => {
             const product = products.find(p => p.id === productId);
-            console.log(product);
             if (product) {
-                // Update product details on the page
-            
                 document.getElementById('ProductImg').src = product.image;
                 document.getElementById('productName').innerText = product.name;
                 document.getElementById('productPrice').innerText = product.price;
                 document.getElementById('productDescription').innerText = product.description;
+        
+                // Add event listener to "Add To Cart" button
+                document.getElementById('addToCartButton').addEventListener('click', () => {
+                    addItemToCart(product.name, product.price, product.image); // 呼叫 store.js 的函數
+                })
             }
         })
+        
         //.catch(error => console.error('Error loading product data:', error));
         
 
@@ -30,4 +33,6 @@ function setProductDetails(productId) {
 
 
 // Example usage: load product with id 1
-//setProductDetails(2);
+//setProductDetails(2);--------------------------------------------------
+
+
