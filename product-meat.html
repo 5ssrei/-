@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>輔大撈點餐系統－肉類</title>
+    <script src="sort.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <form method="GET">
+       <div class="container">
+          <div class="navbar">
+              <div class="logo">
+                  <a href="index.html"><img src="images/logo.png" width="125px"></a>
+              </div>
+              <nav>
+               <ul id="MenuItems">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="products.html">Products</a></li>
+                   <li><a href="">About</a></li>
+                   <li><a href="">Contact</a></li>
+                   <li><a href="account.html">Account</a></li>
+               </ul>
+              </nav>
+              <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+              <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
+          </div>
+          
+       </div>
+<!----------------- title -------------->
+<div class="small-container">
+   <div class="row row-2">
+    <img src="images/banner1.jpg" alt="Banner 1" class="banner-image">
+       <h2>3. 選擇肉類</h2>
+       <select id="sorting">
+        <option value="">Default</option>
+        <option value="price">price</option>
+        <option value="rating">rating</option>
+       </select>
+   </div>
+    
+             
+           <div class="row">
+               <div class="col-4">
+                   
+                   <a href="product-details.html?id=24"><img src="images/product-24.jpg">
+                   <h4>日本和牛</h4></a>
+
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p class="price">$1190</p>
+               </div> 
+               <div class="col-4">
+                <a href="product-details.html?id=25"><img src="images/product-25.jpg">
+                    <h4>美國安格斯牛</h></a>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p class="price">$1090</p>
+               </div> 
+               <div class="col-4">
+                <a href="product-details.html?id=26"><img src="images/product-26.jpg">
+                    <h4>澳洲和牛</h4></a>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p class="price">$990</p>
+               </div> 
+                <div class="col-4">
+                    <a href="product-details.html?id=27"><img src="images/product-27.jpg">
+                        <h4>台灣溫體牛</h4></a>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p class="price">$890</p>
+               </div> 
+           </div>
+            
+             <div class="row">
+               <div class="col-4">
+                <a href="product-details.html?id=28"><img src="images/product-28.jpg">
+                    <h4>西班牙伊比利豬</h4></a>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p class="price">$890</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-details.html?id=29"><img src="images/product-29.jpg">
+                    <h4>日本霧島豬</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price">$690</p>
+                </div> 
+                <div class="col-4">
+                    <a href="product-details.html?id=30"><img src="images/product-30.jpg">
+                    <h4>台灣黑豬肉</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price">$690</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html?id=31"><img src="images/product-31.jpg">
+                <h4>丹麥豬</h4></a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="price">$690</p>
+        </div>
+        <div class="col-4">
+            <a href="product-details.html?id=32"><img src="images/product-32.jpg">
+            <h4>台灣放山雞</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p class="price">$790</p>
+    </div>
+    <div class="col-4">
+        <a href="product-details.html?id=33"><img src="images/product-33.jpg">
+        <h4>舒肥雞胸肉</h4></a>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+        <p class="price">$690</p>
+</div>
+<div class="col-4">
+    <a href="product-details.html?id=33"><img src="images/product-33.jpg">
+    <h4>紐西蘭羊肉</h4></a>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+    <p class="price">$1090</p>
+</div>
+<div class="col-4">
+    <a href="product-details.html?id=34"><img src="images/product-34.jpg">
+    <h4>澳洲羊肉</h4></a>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+    <p class="price">$990</p>
+</div>
+<div class="col-4">
+    <a href="product-details.html?id=35"><img src="images/product-35.jpg">
+    <h4>內蒙古草原放牧羊</h4></a>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+    <p class="price">$890</p>
+</div>
+<div class="col-4">
+    <a href="product-details.html?id=36"><img src="images/product-36.jpg">
+    <h4>挪威進口新鮮鯖魚</h4></a>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+    <p class="price">$1190</p>
+</div>
+    
+           <div class="page-btn">
+            <a href="product-seafood.html"><span style="font-size: 20px">點我下一步→</span>
+            </a>   
+           </div>
+</div>
+    
+<!----------Footer---------------> 
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col1">
+               <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col2">
+               <img src="images/logo-white.png">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col3">
+               <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col4">
+               <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter<li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020 - Easy Tutorials</p>
+    </div>
+    
+</div>
+</form>
+</body>

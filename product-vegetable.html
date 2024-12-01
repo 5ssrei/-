@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>輔大撈點餐系統－蔬菜類</title>
+    <script src="sort.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <form method="GET">
+       <div class="container">
+          <div class="navbar">
+              <div class="logo">
+                  <a href="index.html"><img src="images/logo.png" width="125px"></a>
+              </div>
+              <nav>
+               <ul id="MenuItems">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="products.html">Products</a></li>
+                   <li><a href="">About</a></li>
+                   <li><a href="">Contact</a></li>
+                   <li><a href="account.html">Account</a></li>
+               </ul>
+              </nav>
+              <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+              <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
+          </div>
+          
+       </div>
+<!----------------- title -------------->
+<div class="small-container">
+   <div class="row row-2">
+    <img src="images/banner1.jpg" alt="Banner 1" class="banner-image">
+       <h2>2. 選擇蔬菜類</h2>
+       <select id="sorting">
+        <option value="">Default</option>
+        <option value="price">price</option>
+        <option value="rating">rating</option>
+       </select>
+   </div>
+    
+             
+           <div class="row">
+               <div class="col-4">
+                   
+                   <a href="product-details.html?id=8"><img src="images/product-8.jpg">
+                   <h4>高山高麗菜</h4></a>
+
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p class="price">$20</p>
+               </div> 
+               <div class="col-4">
+                <a href="product-details.html?id=9"><img src="images/product-9.jpg">
+                    <h4>青江菜</h>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p class="price">$25</p>
+               </div> 
+               <div class="col-4">
+                <a href="product-details.html?id=10"><img src="images/product-10.jpg">
+                    <h4>大陸妹</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p class="price">$25</p>
+               </div> 
+                <div class="col-4">
+                    <a href="product-details.html?id=11"><img src="images/product-11.jpg">
+                        <h4>大白菜</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p class="price">$20</p>
+               </div> 
+           </div>
+            
+             <div class="row">
+               <div class="col-4">
+                <a href="product-details.html?id=12"><img src="images/product-12.jpg">
+                    <h4>蔬菜拼盤</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p class="price">$100</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-details.html?id=13"><img src="images/product-13.jpg">
+                    <h4>香菇</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price">$35</p>
+                </div> 
+                <div class="col-4">
+                    <a href="product-details.html?id=14"><img src="images/product-14.jpg">
+                    <h4>金針菇</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price">$30</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html?id=15"><img src="images/product-15.jpg">
+                <h4>杏鮑菇</h4></a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="price">$30</p>
+        </div>
+        <div class="col-4">
+            <a href="product-details.html?id=16"><img src="images/product-16.jpg">
+            <h4>義大利蘑菇</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p class="price">$40</p>
+    </div>
+    <div class="col-4">
+        <a href="product-details.html?id=17"><img src="images/product-17.jpg">
+        <h4>玉米筍</h4></a>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+        <p class="price">$45</p>
+</div>
+<div class="col-4">
+    <a href="product-details.html?id=18"><img src="images/product-18.jpg">
+    <h4>新鮮水果玉米</h4></a>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+    <p class="price">$40</p>
+</div>
+<div class="col-4">
+    <a href="product-details.html?id=19"><img src="images/product-19.jpg">
+    <h4>蘿蔔</h4></a>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+    <p class="price">$30</p>
+</div>
+<div class="col-4">
+    <a href="product-details.html?id=20"><img src="images/product-20.jpg">
+    <h4>芋頭</h4></a>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+    <p class="price">$40</p>
+</div>
+<div class="col-4">
+    <a href="product-details.html?id=21"><img src="images/product-21.jpg">
+    <h4>豆腐</h4></a>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+    <p class="price">$45</p>
+</div><div class="col-4">
+    <a href="product-details.html?id=22"><img src="images/product-22.jpg">
+    <h4>絲瓜</h4></a>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+    <p class="price">$35</p>
+</div><div class="col-4">
+    <a href="product-details.html?id=23"><img src="images/product-23.jpg">
+    <h4>木耳</h4></a>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+    <p class="price">$30</p>
+</div>
+           <div class="page-btn">
+            <a href="product-meat.html"><span style="font-size: 20px">點我下一步→</span>
+            </a>   
+           </div>
+</div>
+    
+<!----------Footer---------------> 
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col1">
+               <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col2">
+               <img src="images/logo-white.png">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col3">
+               <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col4">
+               <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter<li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020 - Easy Tutorials</p>
+    </div>
+    
+</div>
+</form>
+</body>

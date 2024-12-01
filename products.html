@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Products - RedStore | Ecommerce Website Design</title>
+    <title>輔大撈點餐系統－湯底</title>
+    <script src="sort.js"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <form method="GET">
        <div class="container">
           <div class="navbar">
               <div class="logo">
@@ -31,13 +33,12 @@
 <!----------------- title -------------->
 <div class="small-container">
    <div class="row row-2">
-       <h2>All Products</h2>
-       <select>
-           <option>Default Shorting</option>
-           <option>Short by price</option>
-           <option>Short by popularity</option>
-           <option>Short by rating</option>
-           <option>Short by sale</option>
+    <img src="images/banner1.jpg" alt="Banner 1" class="banner-image">
+       <h2>1. 選擇湯底</h2>
+       <select id="sorting">
+        <option value="">Default</option>
+        <option value="price">price</option>
+        <option value="rating">rating</option>
        </select>
    </div>
     
@@ -45,8 +46,9 @@
            <div class="row">
                <div class="col-4">
                    
-                   <a href="product-details.html"><img src="images/product-1.jpg"></a>
-                   <h4><a href="product-details.html">Red Printed T-Shirt</a></h4>
+                   <a href="product-details.html?id=1&source=product"><img src="images/product-1.jpg">
+                    <h4 style="font-size: 24px; margin-bottom: 10px">輔大撈經典湯底</h4></a>
+
                    <div class="rating">
                        <i class="fa fa-star"></i>
                        <i class="fa fa-star"></i>
@@ -54,11 +56,11 @@
                        <i class="fa fa-star"></i>
                        <i class="fa fa-star-o"></i>
                    </div>
-                   <p>$50.00</p>
+                   <p class="price">$50</p>
                </div> 
                <div class="col-4">
-                   <img src="images/product-2.jpg">
-                   <h4>HRX Sports Shoes</h4>
+                <a href="product-details.html?id=2&source=product"><img src="images/product-2.jpg">
+                    <h4 style="font-size: 24px; margin-bottom: 10px">日式昆布湯底</h4></a>
                    <div class="rating">
                        <i class="fa fa-star"></i>
                        <i class="fa fa-star"></i>
@@ -66,11 +68,11 @@
                        <i class="fa fa-star"></i>
                        <i class="fa fa-star-half-o"></i>
                    </div>
-                   <p>$75.00</p>
+                   <p class="price">$75</p>
                </div> 
                <div class="col-4">
-                   <img src="images/product-3.jpg">
-                   <h4>HRX Gray Trackpants</h4>
+                <a href="product-details.html?id=3&source=product"><img src="images/product-3.jpg">
+                    <h4 style="font-size: 24px; margin-bottom: 10px">新鮮牛番茄湯底</h4></a>
                    <div class="rating">
                        <i class="fa fa-star"></i>
                        <i class="fa fa-star"></i>
@@ -78,11 +80,11 @@
                        <i class="fa fa-star"></i>
                        <i class="fa fa-star-half-o"></i>
                    </div>
-                   <p>$45.00</p>
+                   <p class="price">$55</p>
                </div> 
                 <div class="col-4">
-                   <img src="images/product-4.jpg">
-                   <h4>Blue Printed T-Shirt</h4>
+                    <a href="product-details.html?id=4&source=product"><img src="images/product-4.jpg">
+                        <h4 style="font-size: 24px; margin-bottom: 10px">養生湯底</h4></a>
                    <div class="rating">
                        <i class="fa fa-star"></i>
                        <i class="fa fa-star"></i>
@@ -90,14 +92,14 @@
                        <i class="fa fa-star"></i>
                        <i class="fa fa-star-o"></i>
                    </div>
-                   <p>$55.00</p>
+                   <p class="price">$75</p>
                </div> 
            </div>
             
              <div class="row">
                <div class="col-4">
-                   <img src="images/product-5.jpg">
-                   <h4>Puma Gray Sports Shoes</h4>
+                <a href="product-details.html?id=5"><img src="images/product-5.jpg">
+                    <h4 style="font-size: 24px; margin-bottom: 10px">獨家輔大撈秘密湯底</h4></a>
                    <div class="rating">
                        <i class="fa fa-star"></i>
                        <i class="fa fa-star"></i>
@@ -105,104 +107,36 @@
                        <i class="fa fa-star"></i>
                        <i class="fa fa-star-o"></i>
                    </div>
-                   <p>$95.00</p>
-               </div> 
-               <div class="col-4">
-                   <img src="images/product-6.jpg">
-                   <h4>Black Printed T-Shirt</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>$55.00</p>
-               </div> 
-               <div class="col-4">
-                   <img src="images/product-7.jpg">
-                   <h4>HRX Set of 3 Socks</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>$30.00</p> 
-               </div> 
+                   <p class="price">$80</p>
+                </div>
                 <div class="col-4">
-                   <img src="images/product-8.jpg">
-                   <h4>Black Fossil Watch</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>$120.00</p>
-               </div> 
-           </div>
-           
-           <div class="row">
-               <div class="col-4">
-                   <img src="images/product-9.jpg">
-                   <h4>Black Sportx Watch</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>$135.00</p> 
-               </div> 
-               <div class="col-4">
-                   <img src="images/product-10.jpg">
-                   <h4>Black HRX Shoes</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>$50.00</p>
-               </div> 
-               <div class="col-4">
-                   <img src="images/product-11.jpg">
-                   <h4>Gray Nike Shoes</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>$55.00</p>
-               </div> 
+                    <a href="product-details.html?id=6"><img src="images/product-6.jpg">
+                        <h4 style="font-size: 24px; margin-bottom: 10px">麻辣湯底</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price">$65</p>
+                </div> 
                 <div class="col-4">
-                   <img src="images/product-12.jpg">
-                   <h4>HRX Black Trackpants</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>$75.00</p>
-               </div> 
-           </div>
-           
+                    <a href="product-details.html?id=7"><img src="images/product-7.jpg">
+                        <h4 style="font-size: 24px; margin-bottom: 10px">濃醇香牛奶湯底</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price">$65</p>
+            </div>
            <div class="page-btn">
-              <span>1</span>
-              <span>2</span>
-              <span>3</span>
-              <span>4</span>
-              <span>&#8594;</span>
-          </div>
+            <a href="product-vegetable.html"><span style="font-size: 20px">點我下一步→</span>
+            </a>   
+           </div>
 </div>
     
 <!----------Footer---------------> 
@@ -246,32 +180,5 @@
     </div>
     
 </div>
-
-
-
-<!-------------js for toggle menu-------------->
-
-<script>
-    
-    var MenuItems = document.getElementById("MenuItems");
-    
-    MenuItems.style.maxHeight = "0px";
-    
-    function menutoggle()
-    {
-        if(MenuItems.style.maxHeight == "0px")
-            {
-                MenuItems.style.maxHeight = "200px";
-            }else
-            {
-                MenuItems.style.maxHeight = "0px"
-            } 
-    }
-    
-</script>
-
-
-
+</form>
 </body>
-</html>
-

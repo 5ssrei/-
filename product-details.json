@@ -1,0 +1,358 @@
+[
+  {
+    "id": 1,
+    "name": "輔大撈經典湯底",
+    "price": "$50",
+    "image": "images/product-1.jpg",
+    "description": "經典的輔大撈湯底，口味清新，湯頭香濃，完美搭配各式食材，帶來獨特的風味體驗，讓每一口都充滿驚喜。"
+  },
+  {
+    "id": 2,
+    "name": "日式昆布湯底",
+    "price": "$75",
+    "image": "images/product-2.jpg",
+    "description": "清爽的昆布湯底，帶有微妙的海味，湯汁滋味鮮美，適合喜愛日式料理的食客，無論是單獨享用或搭配其他食材，都是絕佳選擇。"
+  },
+  {
+    "id": 3,
+    "name": "新鮮牛番茄湯底",
+    "price": "$55",
+    "image": "images/product-3.jpg",
+    "description": "新鮮牛番茄湯底，湯頭酸甜適中，番茄的天然味道與湯底完美融合，為您帶來濃郁又清爽的口感，十分開胃。"
+  },
+  {
+    "id": 4,
+    "name": "養生湯底",
+    "price": "$75",
+    "image": "images/product-4.jpg",
+    "description": "養生湯底，融合多種天然草本材料，味道溫和，富有營養，適合追求健康飲食的您，每一口都滿載滋補功效。"
+  },
+  {
+    "id": 5,
+    "name": "獨家輔大撈秘密湯底",
+    "price": "$80",
+    "image": "images/product-5.jpg",
+    "description": "獨家輔大撈秘密湯底，經典口味的升級版，湯底更加醇厚，香氣四溢，帶來無與倫比的豐富風味，讓您每次品嚐都愛不釋口。"
+  },
+  {
+    "id": 6,
+    "name": "麻辣湯底",
+    "price": "$80",
+    "image": "images/product-6.jpg",
+    "description": "麻辣湯底，辣味十足，香氣撲鼻，帶有獨特的麻味，適合愛好重口味的食客，挑戰您的味蕾，享受熱辣的刺激！"
+  },
+  {
+    "id": 7,
+    "name": "濃醇香牛奶湯底",
+    "price": "$80",
+    "image": "images/product-7.jpg",
+    "description": "濃醇香牛奶湯底，湯頭醇厚細緻，帶有奶香味，口感順滑，完美呈現奶湯的溫暖與舒適，適合喜歡奶香風味的您。"
+  },
+    {
+        "id": 8,
+        "name": "高山高麗菜",
+        "price": "$20",
+        "image": "images/product-8.jpg",
+        "description": "來自高山的高麗菜，口感脆嫩，帶有天然的清甜味，讓您的餐點更添清新自然的風味。"
+    },
+    {
+        "id": 9,
+        "name": "青江菜",
+        "price": "$25",
+        "image": "images/product-9.jpg",
+        "description": "鮮嫩的青江菜，色澤翠綠，搭配任何料理都是絕佳選擇，讓每一口都充滿滿足感。"
+    },
+    {
+        "id": 10,
+        "name": "大陸妹",
+        "price": "$25",
+        "image": "images/product-10.jpg",
+        "description": "大陸妹菜，富含維他命，口感綿密，無論炒煮皆適合，為您的餐桌增添豐富口感。"
+    },
+    {
+        "id": 11,
+        "name": "大白菜",
+        "price": "$20",
+        "image": "images/product-11.jpg",
+        "description": "大白菜，清脆可口，無論搭配湯品或是炒菜，都能帶出豐富的味道，滋味十足。"
+    },
+    {
+        "id": 12,
+        "name": "蔬菜拼盤",
+        "price": "$100",
+        "image": "images/product-12.jpg",
+        "description": "集結多種新鮮蔬菜，營養滿點，色彩繽紛，帶來健康美味的選擇，是您餐桌上的完美搭配。"
+    },
+    {
+        "id": 13,
+        "name": "香菇",
+        "price": "$35",
+        "image": "images/product-13.jpg",
+        "description": "香菇肉質鮮美，香氣四溢，不僅增添料理風味，還能提供豐富的營養，滋補又美味。"
+    },
+    {
+        "id": 14,
+        "name": "金針菇",
+        "price": "$30",
+        "image": "images/product-14.jpg",
+        "description": "金針菇口感爽脆，帶有自然的甜味，無論燉湯或涼拌，都是最佳的健康食材選擇。"
+    },
+    {
+        "id": 15,
+        "name": "杏鮑菇",
+        "price": "$30",
+        "image": "images/product-15.jpg",
+        "description": "杏鮑菇肉質厚實，口感鮮嫩，適合多種料理方式，是健康飲食的首選。"
+    },
+    {
+        "id": 16,
+        "name": "義大利蘑菇",
+        "price": "$40",
+        "image": "images/product-16.jpg",
+        "description": "義大利蘑菇，帶有獨特的香氣和豐富的口感，無論是湯品或義大利麵，都能瞬間提升美味。"
+    },
+    {
+        "id": 17,
+        "name": "玉米筍",
+        "price": "$45",
+        "image": "images/product-17.jpg",
+        "description": "玉米筍口感甜美脆嫩，營養豐富，搭配各式料理都能帶來清新的風味，是健康的餐桌必備。"
+    },
+    {
+        "id": 18,
+        "name": "新鮮水果玉米",
+        "price": "$40",
+        "image": "images/product-18.jpg",
+        "description": "新鮮水果玉米，香甜可口，豐富的口感與自然的甜味，讓每一口都滿足您的味蕾。"
+    },
+    {
+        "id": 19,
+        "name": "蘿蔔",
+        "price": "$30",
+        "image": "images/product-19.jpg",
+        "description": "蘿蔔脆嫩多汁，能夠搭配各式料理，為您的餐點增添清爽的味道，健康又美味。"
+    },
+    {
+        "id": 20,
+        "name": "芋頭",
+        "price": "$40",
+        "image": "images/product-20.jpg",
+        "description": "芋頭，綿密滑順的口感，無論是湯品還是甜點，都是令人難以抗拒的美味選擇。"
+    },
+    {
+        "id": 21,
+        "name": "豆腐",
+        "price": "$45",
+        "image": "images/product-21.jpg",
+        "description": "豆腐細緻滑嫩，富含蛋白質，能夠完美融入各種湯品或炒菜，讓每一口都更具口感層次。"
+    },
+    {
+        "id": 22,
+        "name": "絲瓜",
+        "price": "$35",
+        "image": "images/product-22.jpg",
+        "description": "絲瓜清甜爽口，無論是涼拌還是熱炒，都是極為清爽的健康食材，適合每一餐搭配。"
+    },
+    {
+        "id": 23,
+        "name": "木耳",
+        "price": "$30",
+        "image": "images/product-23.jpg",
+        "description": "木耳脆嫩爽口，富含纖維與營養，適合搭配湯品或炒菜，增添口感和營養價值。"
+    },
+    
+        {
+            "id": 24,
+            "name": "日本和牛",
+            "price": "$1190",
+            "image": "images/product-24.jpg",
+            "description": "來自日本的頂級和牛，雪花分布均勻，入口即化的口感，帶給您極致的奢華享受。"
+        },
+        {
+            "id": 25,
+            "name": "美國安格斯牛",
+            "price": "$1090",
+            "image": "images/product-25.jpg",
+            "description": "美國安格斯牛肉，以鮮嫩多汁、風味濃郁而聞名，是您餐桌上的不二選擇。"
+        },
+        {
+            "id": 26,
+            "name": "澳洲和牛",
+            "price": "$990",
+            "image": "images/product-26.jpg",
+            "description": "選用澳洲肥美和牛，肉質細膩，鮮嫩甘甜，為您打造高品質的味蕾體驗。"
+        },
+        {
+            "id": 27,
+            "name": "台灣溫體牛",
+            "price": "$890",
+            "image": "images/product-27.jpg",
+            "description": "來自台灣的新鮮溫體牛，肉質鮮嫩，保留原始風味，適合各種經典料理。"
+        },
+        {
+            "id": 28,
+            "name": "西班牙伊比利豬",
+            "price": "$890",
+            "image": "images/product-28.jpg",
+            "description": "西班牙傳統養殖的伊比利豬，肉質柔嫩香醇，散發濃郁的自然香氣，令人垂涎。"
+        },
+        {
+            "id": 29,
+            "name": "日本霧島豬",
+            "price": "$690",
+            "image": "images/product-29.jpg",
+            "description": "來自日本霧島的豬肉，脂香濃郁，肉質鮮嫩，帶來獨特的日式風味享受。"
+        },
+        {
+            "id": 30,
+            "name": "台灣黑豬肉",
+            "price": "$690",
+            "image": "images/product-30.jpg",
+            "description": "台灣本土黑豬肉，肉質扎實有彈性，香氣濃郁，適合各種烹調方式。"
+        },
+        {
+            "id": 31,
+            "name": "丹麥豬",
+            "price": "$690",
+            "image": "images/product-31.jpg",
+            "description": "丹麥豬肉，以其鮮嫩多汁和豐富的口感聞名，讓每一口都充滿幸福感。"
+        },
+        {
+            "id": 32,
+            "name": "台灣放山雞",
+            "price": "$790",
+            "image": "images/product-32.jpg",
+            "description": "放養於台灣山林的土雞，肉質結實有彈性，原汁原味，滿足您的健康需求。"
+        },
+        {
+            "id": 33,
+            "name": "舒肥雞胸肉",
+            "price": "$690",
+            "image": "images/product-33.jpg",
+            "description": "低溫慢煮的舒肥雞胸肉，鮮嫩多汁，營養健康，是健身與健康生活的不二選擇。"
+        },
+        {
+            "id": 34,
+            "name": "紐西蘭羊肉",
+            "price": "$1090",
+            "image": "images/product-34.jpg",
+            "description": "來自紐西蘭的優質羊肉，細嫩鮮美，無膻味，適合燉煮或烤製，味道一絕。"
+        },
+        {
+            "id": 35,
+            "name": "澳洲羊肉",
+            "price": "$990",
+            "image": "images/product-35.jpg",
+            "description": "澳洲草原飼養的羊肉，肉質鮮嫩細緻，口感溫潤，為家庭聚餐增添豐富滋味。"
+        },
+        {
+            "id": 36,
+            "name": "挪威進口新鮮鯖魚",
+            "price": "$1190",
+            "image": "images/product-36.jpg",
+            "description": "來自北歐冷水海域的鯖魚，肉質鮮美細膩，富含Omega-3，為健康飲食首選。"
+        },
+        
+            {
+                "id": 37,
+                "name": "鮮蝦",
+                "price": "$690",
+                "image": "images/product-37.jpg",
+                "description": "新鮮蝦仁，肉質鮮美，口感脆嫩，無論是燒烤、炒菜或煮湯，都能增添無比的美味。"
+            },
+            {
+                "id": 38,
+                "name": "花枝",
+                "price": "$750",
+                "image": "images/product-38.jpg",
+                "description": "花枝肉質細膩，口感鮮美，無論搭配簡單的蒜香還是醬料，都能突顯其鮮美滋味。"
+            },
+            {
+                "id": 39,
+                "name": "干貝",
+                "price": "$890",
+                "image": "images/product-39.jpg",
+                "description": "優質干貝，肉質鮮嫩滑口，入口即化，是高級料理中不可或缺的美味食材。"
+            },
+            {
+                "id": 40,
+                "name": "鮮魷魚",
+                "price": "$760",
+                "image": "images/product-40.jpg",
+                "description": "新鮮魷魚，肉質鮮嫩，富有彈性，無論是烤、炸還是燙煮，都能保留其天然鮮味。"
+            },
+            {
+                "id": 41,
+                "name": "螃蟹",
+                "price": "$980",
+                "image": "images/product-41.jpg",
+                "description": "選用優質螃蟹，肉質豐滿鮮甜，每一口都帶著海洋的鮮香，無論清蒸或是搭配醬料，風味絕佳。"
+            },
+            {
+                "id": 42,
+                "name": "鮮海參",
+                "price": "$1090",
+                "image": "images/product-42.jpg",
+                "description": "海參肉質細膩，營養豐富，口感Q彈，無論做湯或是紅燒，都能讓你享受到海的鮮美滋味。"
+            },
+            
+                {
+                    "id": 43,
+                    "name": "鴛鴦火鍋底料",
+                    "price": "$250",
+                    "image": "images/product-43.jpg",
+                    "description": "獨特的鴛鴦火鍋底料，雙重口味，香辣與清湯完美融合，適合多種食材搭配，讓火鍋更加美味。"
+                },
+                {
+                    "id": 44,
+                    "name": "麻辣牛肚",
+                    "price": "$350",
+                    "image": "images/product-44.jpg",
+                    "description": "麻辣牛肚，口感爽脆，微辣不嗆，吃上一口讓人欲罷不能，與火鍋湯底完美融合。"
+                },
+                {
+                    "id": 45,
+                    "name": "嫩豆腐",
+                    "price": "$120",
+                    "image": "images/product-45.jpg",
+                    "description": "嫩滑豆腐，質地細膩，吸收湯底精華，口感滑順，無論涮煮或燉煮都非常美味。"
+                },
+                {
+                    "id": 46,
+                    "name": "牛小排",
+                    "price": "$490",
+                    "image": "images/product-46.jpg",
+                    "description": "選用優質牛小排，肉質細嫩，油花分布均勻，涮煮後極為鮮美，口感豐富。"
+                },
+                {
+                    "id": 47,
+                    "name": "豬血糕",
+                    "price": "$180",
+                    "image": "images/product-47.jpg",
+                    "description": "台灣經典豬血糕，軟嫩有嚼勁，搭配辣醬或燙煮，濃郁的口感與火鍋湯底相得益彰。"
+                },
+                {
+                    "id": 48,
+                    "name": "炸豆皮",
+                    "price": "$130",
+                    "image": "images/product-48.jpg",
+                    "description": "外脆內軟的炸豆皮，吸收湯汁後口感更加彈嫩，適合搭配各式火鍋食材。"
+                },
+                {
+                    "id": 49,
+                    "name": "滑蛋牛肉片",
+                    "price": "$390",
+                    "image": "images/product-49.jpg",
+                    "description": "牛肉片薄且嫩滑，快速涮煮後能保持肉汁鮮美，是火鍋中的絕佳選擇。"
+                },
+                {
+                    "id": 50,
+                    "name": "素食大根",
+                    "price": "$80",
+                    "image": "images/product-50.jpg",
+                    "description": "脆嫩的大根，與火鍋湯底融合後，口感鮮脆清甜，適合素食者或追求清淡口味的人。"
+                }
+]
+
+  
+  
